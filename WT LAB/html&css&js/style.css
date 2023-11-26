@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+.container{
+    width: 350px;
+    height: 340px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+button{
+    padding: 15px 50px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border: 0;
+}

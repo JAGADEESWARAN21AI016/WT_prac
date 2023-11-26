@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplication Table Generator</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<form method="post" action="/">
+    <label for="numberInput">Enter a number:</label>
+    <input type="text" id="numberInput" name="number" required>
+    <input type="submit" value="Generate Table">
+</form>
+
+{% if error_message %}
+    <p class="error-message">{{ error_message }}</p>
+{% endif %}
+
+{% if number %}
+    <h2 style="text-align: center;">Multiplication Table for : {{ number }}</h2>
+    <table>
+        <tr><th>Multiplicand</th><th>Multiplier</th><th>Result</th></tr>
+        {% for row in table_data %}
+            <tr><td>{{ number }}</td><td>{{ row[0] }}</td><td>{{ row[1] }}</td></tr>
+        {% endfor %}
+    </table>
+{% endif %}
+
+</body>
+</html>

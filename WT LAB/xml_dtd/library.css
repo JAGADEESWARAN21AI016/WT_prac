@@ -1,0 +1,42 @@
+/* Library.css */
+catalog {
+  font-family: Arial;
+  color: white;
+  background-color: lightgoldenrodyellow;
+  font-size: 16pt;
+  width: 100%;
+}
+
+heading {
+  color: green;
+  font-size: 40px;
+  background-color: aliceblue;
+}
+
+book {
+  display: block;
+  font-family: Arial;
+  color: blue;
+  font-size: 20px;
+}
+
+title {
+  font-weight: bold;
+  font-family: Arial;
+  color: magenta;
+  font-size: 18px;
+}
+
+author {
+  font-family: Arial;
+  color: maroon;
+  font-size: 18px;
+}
+
+publication, edition, ISBN, price {
+  display: block;
+  font-family: Arial;
+  color: black;
+  font-size: 16px;
+  margin-left: 20px;
+}
