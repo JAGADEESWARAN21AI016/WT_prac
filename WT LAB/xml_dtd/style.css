@@ -1,0 +1,33 @@
+taskList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+task::before {
+  content: "Task #" attr(id);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+description {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+priority {
+  font-weight: bold;
+  color: #FF5733; /* Orange color for priority */
+}
+
+status {
+  color: green;
+}
