@@ -1,7 +1,0 @@
-<!ELEMENT taskList (task+)>
-<!ELEMENT task EMPTY>
-<!ATTLIST task
-    id ID #REQUIRED
-    description CDATA #REQUIRED
-    priority (High|Medium|Low) #REQUIRED
-    status (Complete|Incomplete) #REQUIRED>

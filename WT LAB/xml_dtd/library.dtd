@@ -1,0 +1,10 @@
+<!ELEMENT library (catalog+)>
+<!ELEMENT catalog (heading, book+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT book (title, author, publication, edition, ISBN, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publication (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

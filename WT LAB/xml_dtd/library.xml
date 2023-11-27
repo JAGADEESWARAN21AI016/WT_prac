@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<?xml-stylesheet type="text/css" href="Library.css"?>
+<library>
+  <catalog>
+    <heading>Welcome to the Library</heading>
+    <book>
+      <title>Book 1</title>
+      <author>Author 1</author>
+      <publication>Publisher 1</publication>
+      <edition>First Edition</edition>
+      <ISBN>1234567890</ISBN>
+      <price>$19.99</price>
+    </book>
+    <book>
+      <title>Book 2</title>
+      <author>Author 2</author>
+      <publication>Publisher 2</publication>
+      <edition>Second Edition</edition>
+      <ISBN>0987654321</ISBN>
+      <price>$29.99</price>
+    </book>
+    <!-- Add more books as needed -->
+  </catalog>
+</library>
