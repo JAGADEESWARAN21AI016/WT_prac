@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE library SYSTEM "library.dtd">
-<?xml-stylesheet type="text/css" href="Library.css"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
 <library>
   <catalog>
     <heading>Welcome to the Library</heading>
