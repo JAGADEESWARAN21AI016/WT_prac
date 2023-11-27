@@ -5,21 +5,68 @@
   <catalog>
     <heading>Welcome to the Library</heading>
     <book>
-      <title>Book 1</title>
-      <author>Author 1</author>
-      <publication>Publisher 1</publication>
-      <edition>First Edition</edition>
-      <ISBN>1234567890</ISBN>
-      <price>$19.99</price>
-    </book>
-    <book>
-      <title>Book 2</title>
-      <author>Author 2</author>
-      <publication>Publisher 2</publication>
-      <edition>Second Edition</edition>
-      <ISBN>0987654321</ISBN>
-      <price>$29.99</price>
-    </book>
-    <!-- Add more books as needed -->
+    <title>Learning Web Development with HTML, CSS, and JavaScript</title>
+    <author>Jon Duckett</author>
+    <publication>Wiley</publication>
+    <edition>1st Edition</edition>
+    <ISBN>9781118531648</ISBN>
+    <price>$39.99</price>
+  </book>
+  <book>
+    <title>JavaScript: The Good Parts</title>
+    <author>Douglas Crockford</author>
+    <publication>O'Reilly Media</publication>
+    <edition>1st Edition</edition>
+    <ISBN>9780596517748</ISBN>
+    <price>$29.99</price>
+  </book>
+  <book>
+    <title>Python Crash Course</title>
+    <author>Eric Matthes</author>
+    <publication>No Starch Press</publication>
+    <edition>2nd Edition</edition>
+    <ISBN>9781593279288</ISBN>
+    <price>$34.99</price>
+  </book>
+  <book>
+    <title>Node.js Design Patterns</title>
+    <author>Mario Casciaro</author>
+    <publication>Packt Publishing</publication>
+    <edition>2nd Edition</edition>
+    <ISBN>9781785885587</ISBN>
+    <price>$49.99</price>
+  </book>
+  <book>
+    <title>Ruby on Rails Tutorial</title>
+    <author>Michael Hartl</author>
+    <publication>Addison-Wesley</publication>
+    <edition>4th Edition</edition>
+    <ISBN>9780134598628</ISBN>
+    <price>$44.99</price>
+  </book>
+  <book>
+    <title>React Up and Running</title>
+    <author>Stoyan Stefanov</author>
+    <publication>O'Reilly Media</publication>
+    <edition>1st Edition</edition>
+    <ISBN>9781491931820</ISBN>
+    <price>$39.99</price>
+  </book>
+  <book>
+    <title>HTML and CSS: Design and Build Websites</title>
+    <author>Jon Duckett</author>
+    <publication>Wiley</publication>
+    <edition>1st Edition</edition>
+    <ISBN>9781118008188</ISBN>
+    <price>$29.99</price>
+  </book>
+  <book>
+    <title>Fullstack Open</title>
+    <author>Various Authors</author>
+    <publication>University of Helsinki</publication>
+    <edition>2020 Edition</edition>
+    <ISBN>Not Applicable</ISBN>
+    <price>Free Online</price>
+  </book>
   </catalog>
 </library>
