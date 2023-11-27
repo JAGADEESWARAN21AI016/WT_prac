@@ -3,9 +3,21 @@
     <person>
         <name>John Doe</name>
         <age>30</age>
+        <gender>Male</gender>
+        <city>New York</city>
+        <occupation>Software Engineer</occupation>
+        <email>john.doe@example.com</email>
+        <phone>555-1234</phone>
+        <hobby>Reading</hobby>
     </person>
     <person>
         <name>Jane Smith</name>
         <age>25</age>
+        <gender>Female</gender>
+        <city>Los Angeles</city>
+        <occupation>Graphic Designer</occupation>
+        <email>jane.smith@example.com</email>
+        <phone>555-5678</phone>
+        <hobby>Painting</hobby>
     </person>
 </data>
